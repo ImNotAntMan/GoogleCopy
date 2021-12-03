@@ -1,0 +1,19 @@
+.card-container {
+    contain:style layout inline-size;
+    width: 50%;
+    border: 1px solid red;
+    padding: 20px;
+    transition: all 1s;
+}
+
+.title {
+    font-size: 30px;
+    color: grey;
+}
+
+@container (max-width:35px) {
+    .title {
+        font-size: 15px;
+        color:red;
+    }
+}
